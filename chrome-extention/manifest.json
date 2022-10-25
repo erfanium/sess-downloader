@@ -1,0 +1,19 @@
+{
+   "name": "Uni downloader",
+   "version": "0.0.1",
+   "manifest_version": 2,
+   "background": {
+     "scripts": [
+       "background.js"
+     ],
+     "persistent": true
+   },
+   "browser_action": {
+     "default_title": "Uni downloader"
+   },
+   "permissions": [
+     "https://sess.shirazu.ac.ir/*",
+     "http://sess.shirazu.ac.ir/*",
+     "tabs"
+   ]
+ }
